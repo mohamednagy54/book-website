@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="icon" type="image/png" href="image/icon.png">
+
+    <!-- font awesome cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+    <!-- header section start -->
+
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i> Bookly</a>
+            <form action="" class="search-form">
+                <label for="search-box" class="fas fa-search"></label>
+                <input type="search" name="" id="search-box" placeholder="بحث..." dir="rtl">
+
+            </form>
+
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+
+
+        </div>
+
+        <div class="header-2" dir="rtl">
+
+            <nav>
+                <div class="navbar">
+                    <a href="#home"><i class="fas fa-home"></i>الرئيسية</a>
+                    <a href="#home"><i class="fas fa-list"></i>التصنيفات</a>
+                    <a href="#home"><i class="fas fa-tags"></i>العروض</a>
+                    <a href="#home"><i class="fas fa-book"></i>كتاب الشهر</a>
+                    <a href="#home"><i class="fas fa-user-tie"></i>المؤلفين</a>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- header section ends -->
+
+
+    <!-- bottom navbar -->
+    <nav>
+        <div class="bottom-navbar" dir="rtl">
+            <a href="#home"><i class="fas fa-home"></i></a>
+            <a href="#home"><i class="fas fa-list"></i></a>
+            <a href="#home"><i class="fas fa-tags"></i></a>
+            <a href="#home"><i class="fas fa-book"></i></a>
+            <a href="#home"><i class="fas fa-user-tie"></i></a>
+
+        </div>
+    </nav>
+
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+
+        <form action="" dir="rtl">
+            <h3>تسجيل الدخول</h3>
+            <span>اسم المستخدم </span>
+            <input type="text" class="box" placeholder="أدخل اسم المسخدم">
+            <span>الباسورد</span>
+            <input type="text" class="box" placeholder="أدخل الباسورد">
+
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">تذكرني</label>
+
+            </div>
+            <input type="submit" value="تسجيل الدخول" class="btn">
+            <p>نسيت كلمة المرور ؟ <a href="#">إضغط هنا</a></p>
+            <p>ليس لديك حساب ؟ <a href="#">تسجيل</a></p>
+        </form>
+    </div>
+
+
+
+
+    <!-- home section starts -->
+
+
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>خصومات تصل الي %75</h3>
+                <p>أحصل الآن علي كتب وروايات عالمية بأسعار لا تصدق</p>
+
+                <a href="#" class="btn">تسوق الأن</a>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+                </div>
+                <img src="image/stand.png" class="stand" alt="">
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- home section end -->
+
+
+    <!-- icons section starts -->
+    <section class="icons-container" dir="rtl">
+        <div class="icons">
+            <i class="fas fa-paper-plane"></i>
+            <div class="content">
+                <h3>توصيل مجاني</h3>
+                <p>للمنتجات الأعلي من 100 جنيه</p>
+            </div>
+
+
+
+        </div>
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>دفع آمن</h3>
+                <p>آمن %100</p>
+            </div>
+
+
+
+        </div>
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>قابل للإستعاده</h3>
+                <p>مهلة 10 أيام</p>
+            </div>
+
+
+
+        </div>
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>خدمة عملاء 24 ساعة</h3>
+                <p>إتصل بنا</p>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- icons section end -->
+
+
+
+    <!-- best seller section -->
+
+    <section class="featured" id="featured">
+        <h1 class="heading"> <span>الأكثر مبيعا</span></h1>
+
+        <div class="swiper featured-slider" dir="rtl">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/best-1.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>حكايات العمر كله</h3>
+                        <div class="price">99 جنيه <span>200 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/best-2.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>عندما يعزف الشيطان</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/best-3.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>أمير البحار</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/best-4.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>المختصر لتفسير القرآن</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/best-5.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>يوتوبيا</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/best-6.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>خكايات فرحان</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/best-7.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>الخروج عن النص</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section>
+
+
+
+    <!-- newsletter section starts -->
+    <section class="newsletter" dir="rtl">
+        <form action="">
+            <h3>أدخل بريدك الألكتروني للحصول علي أحدث <span>الكتب</span></h3>
+            <input dir="ltr" type="email" name="" placeholder="البريد الألكتروني" id="email" class="box">
+            <input type="submit" value="تسجيل" class="btn">
+
+
+
+
+        </form>
+    </section>
+
+
+
+
+
+    <!-- newsletter section end -->
+
+
+
+    <!-- best seller -->
+
+    <section class="suggetion">
+
+        <div class="first-image1">
+            <a href="#"><img src="image/first1.jfif" alt=""></a>
+            <a href="#"><img src="image/first2.jfif" alt=""></a>
+            <a href="#"><img src="image/first3.jfif" alt=""></a>
+            <a href="#"><img src="image/first4.jfif" alt=""></a>
+
+        </div>
+
+
+
+        <h1 class="heading"> <span>الكتب المقترحه</span></h1>
+
+        <div class="swiper suggetion-slider" dir="rtl">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+
+                    <div class="image">
+                        <img src="image/suggest1.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>أسرار الموت العظمي</h3>
+                        <div class="price">99 جنيه <span>200 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+
+
+                    <div class="image">
+                        <img src="image/suggest2.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>سر الغرقة 207</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+
+
+                    <div class="image">
+                        <img src="image/suggest3.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>في الضلمة</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+
+
+                    <div class="image">
+                        <img src="image/suggest4.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>ما لا نبوح به</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+
+
+                    <div class="image">
+                        <img src="image/suggest5.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>إلياذه العاشقين</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+
+
+                    <div class="image">
+                        <img src="image/suggest6.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>حين يتمرد الجان</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+
+
+                    <div class="image">
+                        <img src="image/suggest7.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3>انا في إنتظارك</h3>
+                        <div class="price">75 جنيه <span>150 جنيه</span></div>
+                        <a href="#" class="btn">شراء</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section>
+
+
+    <footer dir="rtl">
+        <div class="container">
+            <div class="col-1">
+                <div class="col-1-a">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-search ml-2"></i>بحث متقدم</a></li>
+                        <li><a href="#"><i class="fa fa-percent  ml-2"></i>عروض وخصومات</a></li>
+                        <li><a href="#"><i class="fa fa-book ml-2"></i>أطلب كتاب</a></li>
+                        <li><a href="#"><i class="fa fa-phone ml-2"></i>اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-1-a">
+                    <ul>
+                        <li><a href="#"><i class="fa  fa-user-plus ml-2"></i>إنشاء حساب</a></li>
+                        <li><a href="#"><i class="fa fa-sign-in ml-2"></i>تسجيل الدخول</a></li>
+                        <li><a href="#"><i class="fa fa-envelope ml-2"></i>القائمة البريدية</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-1-a">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-cubes ml-2"></i>التصنيفات</a></li>
+                        <li><a href="#"><i class="fa fa-commenting ml-2"></i>أسئلة شائعة</a></li>
+                        <li><a href="#"><i class="fa fa-book  ml-2"></i>كتاب الشهر</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="social-media-icons">
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+
+            </div>
+
+
+            <div class="col-2">
+                <a dir="ltr" href="#" class="logo"><i class="fas fa-book"></i> Bookly</a>
+            </div>
+
+
+            
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link -->
+    <script src="js/scrript.js"></script>
+
+
+    <!-- swiper js -->
+
+
+</body>
+
+</html>
